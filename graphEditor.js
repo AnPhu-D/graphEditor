@@ -148,8 +148,8 @@ function setup() {
   instructions.style("margin", "10px");
 }
 function draw() {
-  var SCREEN_W = 300,
-    SCREEN_H = 300;
+  var SCREEN_W = 1000,
+    SCREEN_H = 1000;
   createCanvas(SCREEN_W, SCREEN_H);
   background(255);
   strokeWeight(2);
